@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="shortcut icon" href="add-friend.png" type="x-icon">
+    <title>Sign Up Form</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+       <section>
+         <div>
+           <p>
+             Signup
+           </p>
+         </div>
+          <form method="post">
+            <label for="fname"></label>
+            <input type="text" id="fname" placeholder="Full Name">
+            <br>
+            <label for="email"></label>
+            <input type="email" id="email" placeholder="Email" >
+            <br>
+            <label for="pass"></label>
+            <input type="password" id="pass" placeholder="Password">
+            <br>
+            <label for="password"></label>
+            <input type="password" id="password" placeholder="Confirm Password" >
+            <br>
+            <label for="DOB"></label>
+            <input type="text" id="DOB" placeholder="MM/DD/YYYY" onfocus="(this.type='date')" onblur="(this.type='text')">
+            <br>
+            <input type="radio" name="OP" value="Student" id="radio" >
+            <label for="radio" class="ras">Student</label>
+            <input type="radio" name="OP" value="employee" id="radia">
+            <label for="radia" class="ras">Employee</label>
+            <br>
+            <input type="checkbox" name="check" id="check">
+            <label for="check" class="naam">I agree to all the Terms and codition</label>
+            <br>
+            <button type="submit">Signup</button>
+         </form>
+    </section>
+  </body>
+</html>
